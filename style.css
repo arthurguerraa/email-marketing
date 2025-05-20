@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 600px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container > h1{
+    color: #5F3AA2;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container > p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.botao{
+    padding-bottom: 10px;
+}
